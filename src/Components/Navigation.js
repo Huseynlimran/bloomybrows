@@ -1,29 +1,32 @@
 import React, { useState } from "react";
 
 const Navigation = () => {
+  const [active, setActive] = useState("nav-links");
+  const [toggleIcon, setToggleIcon] = useState("burger");
 
-    const [active,setActive] = useState("nav-links")
-    const [toggleIcon,setToggleIcon] = useState("burger")
+  const showNav = () => {
+    active === "nav-links"
+      ? setActive("navlinks nav-active")
+      : setActive("nav-links");
 
-    const showNav = () =>{
-        active === "nav-links" ? setActive("navlinks nav-active") : setActive("nav-links")
+    // Toggle
 
-        // Toggle 
-
-        toggleIcon === "burger" ? setToggleIcon("burger toggle") : setToggleIcon("burger")
-    }
+    toggleIcon === "burger"
+      ? setToggleIcon("burger toggle")
+      : setToggleIcon("burger");
+  };
   return (
-    <nav>
-      <div className="container">
-        <a href="#"><img src="img/logo/png" alt="" />
+    <div className="container">
+      <nav className="container">
+        <a href="#1">
+          <img src="img/logoB.png" className="logo" alt="" />
         </a>
 
-        <ul className={active}>
-          <a href="#" className="logo"></a>
 
+        <ul className={active}>
           <li className="listLi">
-            <a href="#" className="linksNav">
-              How it Works
+            <a href="#d" className="linksNav">
+              My Work
             </a>
           </li>
           <li className="listLi">
@@ -36,22 +39,12 @@ const Navigation = () => {
               Pricing
             </a>
           </li>
-          <li className="listLi">
-            <a href="#aboutme" className="linksNav">
-              Help
-            </a>
-          </li>
+
           <li className="listLi">
             <a href="#aboutme" className="linksNav">
               Blog
             </a>
           </li>
-          <li className="listLi">
-            <a href="#aboutme" className="linksNav">
-              Log In
-            </a>
-          </li>
-         
         </ul>
 
         <div className={toggleIcon} onClick={showNav}>
@@ -59,8 +52,8 @@ const Navigation = () => {
           <div className="line2"></div>
           <div className="line3"></div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </div>
   );
 };
 
