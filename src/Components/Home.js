@@ -20,13 +20,14 @@ const Home = () => {
             <a href="#1" className="btn">
               Contact
             </a>
-            <a href="https://instagram.com/bloomybrowsbaku" className="insta">
+            <a
+              href="https://instagram.com/bloomybrowsbaku"
+              className="insta"
+            >
               <AiFillInstagram />
             </a>
 
-            <a href="http://wa.me/79124034083" className="wp">
-              <AiOutlineWhatsApp />
-            </a>
+            <a href="http://wa.me/79124034083" className="wp"><AiOutlineWhatsApp/></a>
           </div>
         </div>
 
