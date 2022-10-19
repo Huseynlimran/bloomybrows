@@ -1,6 +1,10 @@
 import React, { useState } from "react";
 
+
 const Navigation = () => {
+
+
+  
   const [active, setActive] = useState("nav-links");
   const [toggleIcon, setToggleIcon] = useState("burger");
 
@@ -25,7 +29,7 @@ const Navigation = () => {
 
         <ul className={active}>
           <li className="listLi">
-            <a href="#d" className="linksNav">
+            <a href="#mywork" className="linksNav">
               My Work
             </a>
           </li>

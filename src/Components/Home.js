@@ -1,9 +1,14 @@
+import { AiFillInstagram, AiOutlineWhatsApp } from "react-icons/ai";
+
 const Home = () => {
   return (
     <section className="container">
       <div className="home">
+        <div className="line"></div>
         <div className="home_left">
-          <h1>Lorem ipsum dolor sit <span> amet consectetur.</span></h1>
+          <h1>
+            Lorem ipsum dolor sit <span> amet consectetur.</span>
+          </h1>
 
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. At
@@ -11,12 +16,24 @@ const Home = () => {
             Iste, facere voluptates?
           </p>
 
-          <a href="#1" className="btn">Contact</a>
+          <div className="social">
+            <a href="#1" className="btn">
+              Contact
+            </a>
+            <a
+              href="https://instagram.com/bloomybrowsbaku"
+              className="insta"
+              target="_blank"
+            >
+              <AiFillInstagram />
+            </a>
+
+            <a href="http://wa.me/79124034083" className="wp"><AiOutlineWhatsApp/></a>
+          </div>
         </div>
 
         <div className="home_right">
-            <img src="img/model.png" className="model" alt="model" />
-
+          <img src="img/model.png" className="model" alt="model" />
         </div>
       </div>
     </section>
