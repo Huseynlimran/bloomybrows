@@ -11,7 +11,7 @@
 
   <style>
     .intro {
-      background-color: #b2ae7f;
+      background-color: #f4f2dd;
       position: fixed;
       top: 0;
       left: 0;
@@ -24,7 +24,6 @@
     }
 
     .slider {
-      background-color: var(--BrandColor);
       position: fixed;
       top: 0;
       left: 0;
@@ -39,15 +38,16 @@
     }
 
     .intro-text {
-      color: rgb(255, 255, 255);
-      font-size: 3rem;
+      color: black;
+      font-size: 2rem;
       z-index: 9999999;
       padding: 0;
       margin: 0;
     }
 
     .hide .fontt {
-      color: white;
+      clip-path:  polygon(0 100%, 100% 100%, 100% 100%, 0 100%);
+      color: #88845d;
       font-size: 2rem;
       z-index: 9999999;
 
@@ -55,24 +55,21 @@
 
 
     .hide {
-      background: #b2ae7f;
+      background: #f4f2dd;
       overflow: hidden;
       z-index: 9999999;
 
     }
 
     .hide span {
-      transform: rotateX(180deg);
-      opacity: 0;
       display: inline-block;
       z-index: 9999999;
 
     }
     .slideImg{
       width: 300px;
-      height: 300px;
-      opacity: 0;
-      clip-path:  polygon(0 0, 0 0, 0 100%, 0 100%);;
+      height: 180px;
+      clip-path:  polygon(0 0, 0 0, 0 100%, 0 100%);
     }
 
     
@@ -138,11 +135,11 @@
   <script>
     const sg = gsap.timeline({ default: { ease: "power1.out" } });
 
-    sg.to(".text", { rotateX: "0deg", duration: 0.2, opacity: 0.7, stagger: 0.1 });
+    sg.to(".text", {'clip-path': 'polygon(0 100%, 100% 100%, 100% 0, 0 0)', duration: .5, opacity: 1, stagger: 0.1 });
 
     sg.to(".slider", { y: "-100%", duration: 1.5, delay: 0.5 });
     sg.to(".intro", { y: "-100%", duration: 1 }, "-=1");
-    gsap.to(".slideImg", { 'clip-path': 'polygon(0 0, 100% 0, 100% 100%, 0 100%)',duration:2,opacity:1})
+    gsap.to(".slideImg", { 'clip-path': 'polygon(0 0, 100% 0, 100% 100%, 0 100%)',duration:2,delay:.2})
   </script>
 </body>
 
