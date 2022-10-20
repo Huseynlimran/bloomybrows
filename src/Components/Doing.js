@@ -3,7 +3,7 @@ import { AiOutlineWhatsApp } from "react-icons/ai";
 const Doing = () => {
   return (
     <section className="container">
-      <div className="doing">
+      <div className="doing" id="doing">
         <div className="doing_title">
           <h1>What We Are Doing</h1>
         </div>

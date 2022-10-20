@@ -1,6 +1,6 @@
 // Container & breakpoints
 @use "sass:math";
-$containerWidth: 1504;
+$containerWidth: 1404;
 $containerPadding: 40;
 $containerSidePadding: math.div($containerPadding, 2);
 $breakpoint1200: 1119.98 + px;

@@ -1,0 +1,107 @@
+.container {
+
+    .footer{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-top: 1px solid $brand;
+        margin-top: 100px;
+        padding-top: 20px;
+        padding-bottom: 70px;
+        @media (max-width:400px) {
+            flex-wrap: wrap;
+        }
+
+
+        .footer_left{
+            flex: 0 1 30%;
+            img{
+                width: 300px;
+                @media (max-width: 765px) {
+                    width: 200px;
+                }
+                @media (max-width: 433px) {
+                    width: 100px;
+                }
+            }
+
+        }
+    
+        .footer_right{
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            flex: 0 0 50%;
+            @media (max-width: 1100px) {
+                flex: 0 0 60%;
+                justify-content: center;
+                gap: 30px;
+            }
+            @media (max-width:400px) {
+                flex-direction: row-reverse;
+                flex-wrap: wrap;
+            }
+            
+            .links{
+                ul{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+                    @media (max-width:400px) {
+                        flex-direction: row;
+                    }
+
+                    li{
+                        a{
+                            font-family: $font;
+                            font-size: 16px;
+                            color: black;
+                            &:hover{
+                                color: gray;
+                            }
+                            @media (max-width: 671px) {
+                                font-size: 12px;
+                            }
+                           
+                            
+                        }
+                    }
+                }
+              
+            }
+            .location{
+                ul{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+                    li{
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+                        font-family: $font;
+                        color: black;
+                        font-size: 16px;
+                        @media (max-width: 671px) {
+                            font-size: 12px;
+                        }
+
+                        .instagram{
+                            display: flex;
+                            align-items: center;
+                            gap: 10px;
+                            font-size: 16px;
+                            color: black;
+                            @media (max-width: 671px) {
+                                font-size: 12px;
+                            }
+                        }
+                    }
+                }
+            }
+    
+        }
+    }
+
+    
+
+}

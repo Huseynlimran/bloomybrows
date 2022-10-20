@@ -34,7 +34,7 @@ const Navigation = () => {
             </a>
           </li>
           <li className="listLi">
-            <a href="#myskills" className="linksNav">
+            <a href="#doing" className="linksNav">
               Features
             </a>
           </li>
