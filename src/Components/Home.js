@@ -3,7 +3,7 @@ import { AiFillInstagram, AiOutlineWhatsApp } from "react-icons/ai";
 const Home = () => {
   return (
     <section className="container">
-      <div className="home">
+      <div className="home" id="home">
         <div className="line"></div>
         <div className="home_left">
           <h1>

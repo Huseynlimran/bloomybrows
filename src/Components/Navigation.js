@@ -22,14 +22,14 @@ const Navigation = () => {
   return (
     <div className="container">
       <nav className="container">
-        <a href="#1">
+        <a href="/">
           <img src="img/logoB.png" className="logo" alt="" />
         </a>
 
 
         <ul className={active}>
           <li className="listLi">
-            <a href="#mywork" className="linksNav">
+            <a href="#do" className="linksNav">
               My Work
             </a>
           </li>
