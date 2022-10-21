@@ -18,7 +18,7 @@ const Home = () => {
 
           <div className="social">
             <a href="#1" className="btn">
-              Contact
+            КОНТАКТЫ
             </a>
             <a href="https://instagram.com/bloomybrowsbaku" className="insta">
               <AiFillInstagram />
