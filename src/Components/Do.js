@@ -3,7 +3,7 @@ const Do = () => {
     <section className="container">
       <div className="do" id="do">
         <div className="do_title">
-          <h1>What We Do</h1>
+          <h1>РАБОТЫ</h1>
         </div>
 
         <div className="do_items">

@@ -56,6 +56,7 @@
                             font-family: $font;
                             font-size: 16px;
                             color: black;
+                            transition: all .4s;
                             &:hover{
                                 color: gray;
                             }
@@ -83,6 +84,9 @@
                         font-size: 16px;
                         @media (max-width: 671px) {
                             font-size: 12px;
+                        }
+                        .location{
+                            font-size: 16px;
                         }
 
                         .instagram{

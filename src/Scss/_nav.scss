@@ -1,6 +1,6 @@
 
 nav {
-  background-color: #feeafa46;
+  background-color: rgba(255, 255, 255, 0.466);
   backdrop-filter: blur(0.5rem);
   -webkit-backdrop-filter: blur(0.3rem);
   transition: all 0.4s;
@@ -48,6 +48,7 @@ nav {
         letter-spacing: 0.75px;
         text-transform: uppercase;
         color: $black;
+        transition: all .4s;
         &:hover {
           color: $brand;
         }

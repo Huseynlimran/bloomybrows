@@ -14,16 +14,22 @@ const Footer = () => {
           <div className="links">
             <ul>
               <li>
-                <a href="/">Home</a>
+                <a href="/">РАБОТЫ</a>
               </li>
               <li>
-                <a href="/">Features</a>
+              <a href="#doing" className="linksNav">
+              УСЛУГИ
+            </a>
               </li>
               <li>
-                <a href="/">Pricing</a>
+              <a href="#project" className="linksNav">
+            ПРАЙС
+            </a>
               </li>
               <li>
-                <a href="/">Blog</a>
+              <a href="#aboutme" className="linksNav">
+            ОБО МНЕ
+            </a>
               </li>
             </ul>
           </div>
@@ -33,7 +39,7 @@ const Footer = () => {
                 <HiOutlineDevicePhoneMobile size={"20px"} />
                 +7-912-403-40-83
               </li>
-              <li>
+              <li className="location">
                 <VscLocation size={"20px"} />
                 Ulitsa Darvina, 18А, Chelyabinsk, Chelyabinskaya
               </li>

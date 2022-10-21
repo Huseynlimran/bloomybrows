@@ -5,42 +5,51 @@ const Doing = () => {
     <section className="container">
       <div className="doing" id="doing">
         <div className="doing_title">
-          <h1>What We Are Doing</h1>
+          <h1>УСЛУГИ</h1>
         </div>
         <div className="doing_boxes">
           <div className="box">
-            <h2>Lorem, ipsum.</h2>
+            <h2>Оформление и окрашивание бровей</h2>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Reiciendis aliquam ea itaque quisquam animi neque corporis
-              assumenda repellat obcaecati totam.
+              Чистейшая коррекция воском, пинцетом и нитью поможет придать
+              красивую форму бровям. Окрашивание хной или краской подчеркнет
+              форму бровей и добавит выразительности
             </p>
-            <a href="http://wa.me/79124034083" className="wp">Contact<AiOutlineWhatsApp/></a>
-            <img src="img/flower.png" className="flower" alt="" />
-            <img src="img/flower.png" className="flower1" alt="" />
-
-          </div>
-
-          <div className="box">
-            <h2>Lorem, ipsum.</h2>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Reiciendis aliquam ea itaque quisquam animi neque corporis
-              assumenda repellat obcaecati totam.
-            </p>
-            <a href="http://wa.me/79124034083" className="wp">Contact<AiOutlineWhatsApp/></a>
+            <a href="http://wa.me/79124034083" className="wp">
+              Contact
+              <AiOutlineWhatsApp />
+            </a>
             <img src="img/flower.png" className="flower" alt="" />
             <img src="img/flower.png" className="flower1" alt="" />
           </div>
 
           <div className="box">
-            <h2>Lorem, ipsum.</h2>
+            <h2>Ламинирование бровей</h2>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Reiciendis aliquam ea itaque quisquam animi neque corporis
-              assumenda repellat obcaecati totam.
+              Долговременная укладка бровей способствует поддержке безупречной
+              формы в течение нескольких недель, не прикладывая усилий. Эффект
+              сохраняется до 2х месяцев
             </p>
-            <a href="http://wa.me/79124034083" className="wp">Contact<AiOutlineWhatsApp/></a>
+            <a href="http://wa.me/79124034083" className="wp">
+              Contact
+              <AiOutlineWhatsApp />
+            </a>
+            <img src="img/flower.png" className="flower" alt="" />
+            <img src="img/flower.png" className="flower1" alt="" />
+          </div>
+
+          <div className="box">
+            <h2>Перманентный макияж бровей</h2>
+            <p>
+              Перманентный макияж позволит придать бровям идеальную форму и
+              создать эффект их густоты, поможет избавиться от асимметрии и
+              скорректировать цвет, что в итоге позволит сократить время на
+              ежедневный макияж
+            </p>
+            <a href="http://wa.me/79124034083" className="wp">
+              Contact
+              <AiOutlineWhatsApp />
+            </a>
             <img src="img/flower.png" className="flower" alt="" />
             <img src="img/flower.png" className="flower1" alt="" />
           </div>

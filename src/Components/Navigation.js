@@ -1,10 +1,6 @@
 import React, { useState } from "react";
 
-
 const Navigation = () => {
-
-
-  
   const [active, setActive] = useState("nav-links");
   const [toggleIcon, setToggleIcon] = useState("burger");
 
@@ -26,27 +22,26 @@ const Navigation = () => {
           <img src="img/logoB.png" className="logo" alt="" />
         </a>
 
-
         <ul className={active}>
           <li className="listLi">
             <a href="#do" className="linksNav">
-              My Work
+              РАБОТЫ
             </a>
           </li>
           <li className="listLi">
             <a href="#doing" className="linksNav">
-              Features
+              УСЛУГИ
             </a>
           </li>
           <li className="listLi">
             <a href="#project" className="linksNav">
-              Pricing
+            ПРАЙС
             </a>
           </li>
 
           <li className="listLi">
             <a href="#aboutme" className="linksNav">
-              Blog
+            ОБО МНЕ
             </a>
           </li>
         </ul>
