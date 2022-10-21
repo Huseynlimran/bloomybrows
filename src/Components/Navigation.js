@@ -40,7 +40,7 @@ const Navigation = () => {
           </li>
 
           <li className="listLi">
-            <a href="#aboutme" className="linksNav">
+            <a href="#about" className="linksNav">
             ОБО МНЕ
             </a>
           </li>

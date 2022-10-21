@@ -21,7 +21,6 @@ time, mark, audio, video {
 }
 html,body{
 	overflow-x: hidden;
-	box-sizing: border-box;
 	height: 100%;
 }
 li {
@@ -52,6 +51,9 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+::-webkit-scrollbar{
+	box-sizing: border-box;
 }
 
 

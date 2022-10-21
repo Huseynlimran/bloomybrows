@@ -47,7 +47,8 @@
     }
 
     .hide .fontt {
-      clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0 100%);
+      /* clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0 100%); */
+      transform: translateY(100%);
       color: black;
       font-size: 2rem;
       z-index: 9999999;
@@ -139,7 +140,7 @@
   <script>
     const sg = gsap.timeline({ default: { ease: "power1.out" } });
 
-    sg.to(".text", { 'clip-path': 'polygon(0 100%, 100% 100%, 100% 0, 0 0)', duration: .5, opacity: 1, stagger: 0.1 });
+    sg.to(".text", { translateY:"0%", duration: .7, opacity: 1, stagger: 0.1 });
 
     sg.to(".slider", { y: "-100%", duration: 1.5, delay: 0.5 });
     sg.to(".intro", { y: "-100%", duration: 1 }, "-=1");
