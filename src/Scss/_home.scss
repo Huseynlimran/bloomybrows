@@ -1,9 +1,5 @@
-
-
 .container {
-
-  .line{
-
+  .line {
     position: absolute;
     width: 100%;
     height: 5px;
@@ -46,24 +42,27 @@
       @media (max-width: 600px) {
         gap: 15px;
       }
-      .social{
+      .social {
         display: flex;
         align-items: center;
         gap: 20px;
 
-        .insta{
-          transition: 0.4s ease;
+        .insta {
+          transition: 0.4s;
           font-size: 34px;
-          color: #817d4d;
-          &:hover{
-            color: $brand;
+          color: $black;
+          &:hover {
+            color: rgba(0, 0, 0, 0.507);
           }
         }
-        .wp{
+        .wp {
           font-size: 34px;
-          color: #817d4d;
+          color: $black;
+          transition: 0.4s;
+          &:hover {
+            color: rgba(0, 0, 0, 0.507);
+          }
         }
-    
       }
 
       h1 {
@@ -80,21 +79,30 @@
 
         span {
           color: transparent;
-          background-image: linear-gradient(to left,$brand,#ff0a54,#fdecf4 ,black,#702279,);
-          -webkit-background-clip: text ;
+          background-image: linear-gradient(
+            to left,
+            $brand,
+            #ff0a54,
+            #fdecf4,
+            black,
+            #702279
+          );
+          background-clip: text;
+          -webkit-background-clip: text;
           animation: animate 10s linear infinite alternate-reverse;
+          background-size: 500%;
           -webkit-background-size: 500%;
           @keyframes animate {
-            0%{
-                background-position: 0 100%;
+            0% {
+              background-position: 0 100%;
             }
-            50%{
-                background-position: 100% 0;
+            50% {
+              background-position: 100% 0;
             }
-            100%{
-                background-position: 0 100%;
+            100% {
+              background-position: 0 100%;
             }
-        }
+          }
         }
       }
       p {
@@ -107,13 +115,14 @@
       }
 
       .btn {
+        position: relative;
         padding: 13.5px 40px;
         display: flex;
         align-items: center;
         gap: 8px;
         color: $black;
         cursor: pointer;
-        border: 2px solid $brand;
+        border: 2px solid #000000;
         font-family: $font;
         font-style: normal;
         font-weight: 400;
@@ -121,9 +130,25 @@
         line-height: 21px;
         text-transform: uppercase;
         border-radius: 20px 0 20px 0;
-        &:hover {
-          box-shadow: 0 0 20px $brand;
-          border-radius: 0 20px 0 20px;
+        transition: all 0.4s;
+        overflow: hidden;
+        &::after {
+          content: '';
+          position: absolute;
+          top: 0px;
+          left: -130%;
+          height: 100%;
+          width: 120%;
+          background-color:black;
+          z-index: -1;
+          transition: all 0.4s ease-out;
+          transform: skewX(-15deg);
+        }
+        &:hover::after {
+          left: -20px;
+        }
+        &:hover{
+          color: white;
         }
       }
     }
