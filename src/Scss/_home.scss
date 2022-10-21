@@ -52,6 +52,7 @@
         gap: 20px;
 
         .insta{
+          transition: 0.4s ease;
           font-size: 34px;
           color: #817d4d;
           &:hover{
@@ -78,7 +79,22 @@
         }
 
         span {
-          color: $brand;
+          color: transparent;
+          background-image: linear-gradient(to left,$brand,#ff0a54,#fdecf4 ,black,#702279,);
+          -webkit-background-clip: text ;
+          animation: animate 10s linear infinite alternate-reverse;
+          -webkit-background-size: 500%;
+          @keyframes animate {
+            0%{
+                background-position: 0 100%;
+            }
+            50%{
+                background-position: 100% 0;
+            }
+            100%{
+                background-position: 0 100%;
+            }
+        }
         }
       }
       p {
