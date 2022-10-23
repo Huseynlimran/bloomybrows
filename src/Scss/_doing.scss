@@ -149,12 +149,16 @@
           align-items: center;
           gap: 10px;
           font-size: 20px;
-          color: $best;
-          border: 1px solid $best;
+          color: black;
+          border: 1px solid black;
           padding: 14px 30px;
           border-radius: 10px;
           transform: translateY(470%);
           transition: all 0.4s;
+          &:hover{
+            border: 1px solid pink;
+            color: pink;
+          }
 
           @media (max-width: 800px) {
             font-size: 14px;

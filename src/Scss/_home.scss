@@ -132,10 +132,12 @@
         border-radius: 20px 0 20px 0;
         transition: all 0.4s;
         overflow: hidden;
+        -webkit-overflow:hidden;
         &::after {
           content: '';
           position: absolute;
           top: 0px;
+          overflow: hidden;
           left: -130%;
           height: 100%;
           width: 120%;

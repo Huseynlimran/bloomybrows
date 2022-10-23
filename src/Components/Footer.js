@@ -51,7 +51,7 @@ const Footer = () => {
                   className="instagram"
                 >
                   <TbBrandInstagram size={"20px"} />
-                  Blomybrowsbaku
+                  Bloomybrowsbaku
                 </a>
               </li>
             </ul>

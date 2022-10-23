@@ -7,18 +7,18 @@ const Home = () => {
         <div className="line"></div>
         <div className="home_left">
           <h1>
-          Bloom Your Eyebrows & <span> Stay Beautiful</span>
+            Bloom Your Eyebrows & <span> Stay Beautiful</span>
           </h1>
 
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. At
-            sapiente dolor culpa voluptates totam quisquam, numquam perferendis!
-            Iste, facere voluptates?
+            Уходовые процедуры за бровями Оформление, окрашивание Долговременная
+            укладка Перманентный макияж бровей Базовый курс «Мастер Бровист»
+            Курсы повышения квалификации
           </p>
 
           <div className="social">
             <a href="#1" className="btn">
-            КОНТАКТЫ
+              КОНТАКТЫ
             </a>
             <a href="https://instagram.com/bloomybrowsbaku" className="insta">
               <AiFillInstagram />
