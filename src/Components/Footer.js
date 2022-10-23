@@ -41,7 +41,7 @@ const Footer = () => {
               </li>
               <li className="location">
                 <VscLocation size={"20px"} />
-                Ulitsa Darvina, 18А, Chelyabinsk, Chelyabinskaya
+                г. Челябинск 40 лет победы 30
               </li>
               <li>
                 <a
