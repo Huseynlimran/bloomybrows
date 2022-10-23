@@ -37,7 +37,7 @@ const Footer = () => {
             <ul>
               <li>
                 <HiOutlineDevicePhoneMobile size={"20px"} />
-                +7-912-403-40-83
+                +7 995 927-08-29
               </li>
               <li className="location">
                 <VscLocation size={"20px"} />

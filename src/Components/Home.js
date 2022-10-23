@@ -24,7 +24,7 @@ const Home = () => {
               <AiFillInstagram />
             </a>
 
-            <a href="http://wa.me/79124034083" className="wp">
+            <a href="http://wa.me/79959270829" className="wp">
               <AiOutlineWhatsApp />
             </a>
           </div>
