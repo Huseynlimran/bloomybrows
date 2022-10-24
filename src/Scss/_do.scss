@@ -22,32 +22,35 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      gap: 10px;
-      @media (max-width: 1509px) {
+      gap: 8px;
+      @media (max-width: 844px) {
         flex-wrap: wrap;
-        justify-content: space-evenly;
       }
-      .img3 {
-        height: 300px;
-      }
-      @media (max-width: 1433px) {
-        .img4 {
-          height: 400px;
-        }
-      }
-      @media (max-width: 500px) {
-        .img4 {
-          width: 100%;
-          height: 300px;
-        }
-      }
+      
+      // .img3 {
+      //   height: 300px;
+      // }
+      // @media (max-width: 1433px) {
+      //   .img4 {
+      //     height: 400px;
+      //   }
+      // }
+      // @media (max-width: 500px) {
+      //   .img4 {
+      //     width: 100%;
+      //     height: 300px;
+      //   }
+      // }
       img {
-        width: 300px;
+        width: 280px;
         border-radius: 40px;
         object-fit: cover;
         animation: move 3s infinite alternate-reverse;
-        @media (max-width: 1509px) {
-          width: 48%;
+        @media (max-width: 1510px) {
+          width: 20%;
+        }
+        @media (max-width: 844px) {
+          flex: 1 0 35%;
         }
 
         @keyframes move {

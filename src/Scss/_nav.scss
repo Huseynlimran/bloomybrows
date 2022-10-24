@@ -22,7 +22,7 @@ nav {
     color: black;
     font-weight: bold;
     transition: all 0.4s;
-    width: 150px;
+    width: 200px;
   }
 
   ul {
@@ -50,7 +50,7 @@ nav {
         color: $black;
         transition: all .4s;
         &:hover {
-          color: pink;
+          color: #ffc0cb;
         }
         img {
           width: 12px;
@@ -122,6 +122,7 @@ nav {
  
     .logo {
       display: block;
+      width: 150px;
     }
   }
 }

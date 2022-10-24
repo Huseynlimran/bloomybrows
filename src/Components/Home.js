@@ -17,7 +17,7 @@ const Home = () => {
           </p>
 
           <div className="social">
-            <a href="#1" className="btn">
+            <a href="http://wa.me/79959270829" className="btn">
               КОНТАКТЫ
             </a>
             <a href="https://instagram.com/bloomybrowsbaku" className="insta">

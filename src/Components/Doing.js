@@ -15,7 +15,7 @@ const Doing = () => {
               красивую форму бровям. Окрашивание хной или краской подчеркнет
               форму бровей и добавит выразительности
             </p>
-            <a href="http://wa.me/79124034083" className="wp">
+            <a href="http://wa.me/79959270829" className="wp">
               Contact
               <AiOutlineWhatsApp />
             </a>
@@ -30,7 +30,7 @@ const Doing = () => {
               формы в течение нескольких недель, не прикладывая усилий. Эффект
               сохраняется до 2х месяцев
             </p>
-            <a href="http://wa.me/79124034083" className="wp">
+            <a href="http://wa.me/79959270829" className="wp">
               Contact
               <AiOutlineWhatsApp />
             </a>
@@ -46,7 +46,7 @@ const Doing = () => {
               скорректировать цвет, что в итоге позволит сократить время на
               ежедневный макияж
             </p>
-            <a href="http://wa.me/79124034083" className="wp">
+            <a href="http://wa.me/79959270829" className="wp">
               Contact
               <AiOutlineWhatsApp />
             </a>
