@@ -22,7 +22,7 @@ const Footer = () => {
             </a>
               </li>
               <li>
-              <a href="#project" className="linksNav">
+              <a href="#price" className="linksNav">
             ПРАЙС
             </a>
               </li>

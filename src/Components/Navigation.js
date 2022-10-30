@@ -34,7 +34,7 @@ const Navigation = () => {
             </a>
           </li>
           <li className="listLi">
-            <a href="#project" className="linksNav">
+            <a href="#price" className="linksNav">
             ПРАЙС
             </a>
           </li>
