@@ -1,6 +1,25 @@
 import React, { useState } from "react";
 
+import gsap, { Power3 } from "gsap";
+import { useEffect } from "react";
+
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
 const Navigation = () => {
+
+  useEffect(() => {
+
+    gsap.fromTo("nav",{
+      y : -100,
+      opacity: 1,
+      ease:Power3.easeOut
+    }, 
+    {
+      y: 0, duration: 2,opacity: 1,delay:2.9
+    })
+
+  })
+
   const [active, setActive] = useState("nav-links");
   const [toggleIcon, setToggleIcon] = useState("burger");
 

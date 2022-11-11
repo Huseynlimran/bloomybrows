@@ -1,4 +1,54 @@
+import gsap, { Bounce, Power3 } from "gsap";
+import { useEffect } from "react";
+
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
+
+
 const About = () => {
+
+
+  useEffect(() => {
+    gsap.fromTo(
+      ".text2",
+      {
+        x: -100,
+        opacity: 0,
+        ease: Power3.easeOut,
+      },
+      {
+        x: 0,
+        duration: 2,
+        opacity: 2,
+        scrollTrigger: {
+          trigger: ".text2",
+          start: "top bottom",
+          end: "20% 20%",
+        },
+      }
+    );
+
+    gsap.fromTo(
+      ".umbul",
+      {
+        scale: 0,
+        opacity: 0,
+        ease: Bounce.easeOut,
+      },
+      {
+        scale: 1,
+        duration: 2,
+        opacity: 2,
+        scrollTrigger: {
+          trigger: ".umbul",
+          start: "top bottom",
+          end: "20% 20%",
+        },
+      }
+    );
+  }, []);
+
   return (
     <section className="container">
       <div className="about_title">
@@ -6,7 +56,7 @@ const About = () => {
       </div>
       <div className="about" id="about">
         <div className="about_text">
-          <h1>
+          <h1 className="text2">
             <span>"</span>Привет! Меня зовут Умбула. Я сертифицированный мастер
             бровист. Обучалась у профессионалов в России, проходила множество
             повышений и безумно люблю свое дело. Преподаю базовый курс с нуля и
@@ -30,7 +80,7 @@ const About = () => {
           </h1>
         </div>
         <div className="about_image">
-          <img src="img/umbul3.png" alt="" />
+          <img src="img/umbul3.png" className="umbul" alt="" />
         </div>
       </div>
     </section>

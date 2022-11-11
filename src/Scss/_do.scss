@@ -53,15 +53,15 @@
           flex: 1 0 35%;
         }
 
-        @keyframes move {
-          from {
-            transform: translateY(10%);
-            box-shadow: 0 0 100px rgba(0, 0, 0, 0.418);
-          }
-          to {
-            transform: translateY(0%);
-          }
-        }
+        // @keyframes move {
+        //   from {
+        //     transform: translateY(10%);
+        //     box-shadow: 0 0 100px rgba(0, 0, 0, 0.418);
+        //   }
+        //   to {
+        //     transform: translateY(0%);
+        //   }
+        // }
       }
     }
   }

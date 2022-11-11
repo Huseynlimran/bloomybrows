@@ -1,4 +1,33 @@
+import gsap, { Power3 } from "gsap";
+import { useEffect} from "react";
+
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
 const Price = () => {
+
+  useEffect(() => {
+    gsap.fromTo(
+      ".price_item",
+      {
+        x: -100,
+        opacity: 0,
+        ease: Power3.easeOut,
+      },
+      {
+        x: 0,
+        duration: 2,
+        opacity: 1,
+        stagger:.3,
+        scrollTrigger: {
+          trigger: ".price_item",
+          start: "top bottom",
+          end: "20% 20%",
+        },
+      }
+    );
+  }, []);
+
+
   return (
     <section className="container">
       <div className="price" id="price">

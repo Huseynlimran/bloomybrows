@@ -1,6 +1,39 @@
 import { AiOutlineWhatsApp } from "react-icons/ai";
 
+
+import gsap, {Expo}  from "gsap";
+import { useEffect } from "react";
+
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
+
+
+
+
 const Doing = () => {
+
+  useEffect(() => {
+    gsap.fromTo(
+      ".box",
+      {
+        y: -100,
+        opacity: 0,
+      },
+      {
+        y: 0,
+        duration: 2,
+        opacity: 1,
+        stagger:.3,
+        scrollTrigger: {
+          trigger: ".box",
+          start: "top bottom",
+          end: "20% 20%",
+        },
+      }
+    );
+  }, []);
+
   return (
     <section className="container">
       <div className="doing" id="doing">
