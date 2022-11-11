@@ -1,7 +1,7 @@
 import { AiOutlineWhatsApp } from "react-icons/ai";
 
 
-import gsap, {Expo}  from "gsap";
+import gsap  from "gsap";
 import { useEffect } from "react";
 
 import { ScrollTrigger } from "gsap/ScrollTrigger";

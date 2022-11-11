@@ -3,7 +3,6 @@ import React, { useState } from "react";
 import gsap, { Power3 } from "gsap";
 import { useEffect } from "react";
 
-import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 const Navigation = () => {
 
