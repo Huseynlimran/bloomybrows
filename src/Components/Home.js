@@ -1,5 +1,5 @@
 import { AiFillInstagram, AiOutlineWhatsApp } from "react-icons/ai";
-import gsap, { Power3,Bounce } from "gsap";
+import gsap, { Power3 } from "gsap";
 import { useEffect , useRef } from "react";
 
 
@@ -14,31 +14,28 @@ const Home = () => {
 
     const el = photo.current;
 
-    gsap.fromTo(el,{
-      scale : 0,
-      opacity: 0,
-      ease:Bounce.easeOut,
-    }, 
-    {
-      scale: 1, duration: 1,opacity: 1,delay:2.9
-    })
+    gsap.to(el,{
 
-    gsap.fromTo(".text_body",{
-      x : -100,
+      'clip-path': 'polygon(0 0, 100% 0, 100% 100%, 0 100%)',scale:1,opacity:1, duration: 2, delay: 2.9 
+
+    });
+
+    gsap.to(".text_body",{
+      'clip-path': 'polygon(0 0, 100% 0, 100% 100%, 0 100%)',opacity:1, duration: 2, delay: 2.9 
+
+    });
+
+    gsap.to(".lineAni",{
+      'clip-path': 'polygon(0 0, 100% 0, 100% 100%, 0 100%)',opacity:1, duration: 2, delay: 2.9 
+    });
+
+    gsap.fromTo(".text_body2",{
+      x: -100,
       opacity: 0,
       ease:Power3.easeOut
     }, 
     {
       x: 0, duration: 1,opacity: 1,delay:2.9
-    })
-
-    gsap.fromTo(".lineAni",{
-      y : -100,
-      opacity: 0,
-      ease:Power3.easeOut
-    }, 
-    {
-      y: 0, duration: 1,opacity: 1,delay:2.9
     })
     
 
@@ -61,14 +58,14 @@ const Home = () => {
             </p>
 
             <div className="social">
-              <a href="http://wa.me/79959270829" className="btn text_body">
+              <a href="http://wa.me/79959270829" className="btn text_body2">
                 КОНТАКТЫ
               </a>
-              <a href="https://instagram.com/bloomybrowsbaku" className="insta text_body">
+              <a href="https://instagram.com/bloomybrowsbaku" className="insta text_body2">
                 <AiFillInstagram />
               </a>
 
-              <a href="http://wa.me/79959270829" className="wp text_body">
+              <a href="http://wa.me/79959270829" className="wp text_body2">
                 <AiOutlineWhatsApp />
               </a>
             </div>

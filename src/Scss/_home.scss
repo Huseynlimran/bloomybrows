@@ -8,6 +8,8 @@
     top: 24%;
     z-index: -1;
     left: 0;
+    clip-path: polygon(0 0, 0 0, 0 100%, 0 100%);
+    opacity: 0;
     @media (max-width: 936px) {
       display: none;
     }
@@ -64,6 +66,10 @@
             color: rgba(0, 0, 0, 0.507);
           }
         }
+      }
+      .text_body{
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        opacity: 0;
       }
 
       h1 {
@@ -168,6 +174,9 @@
         height: auto;
         border-radius: 70px 0 70px 0;
         box-shadow: 60px 0 50px #b2ae7fb2;
+        clip-path: polygon(0 0, 0 0, 0 100%, 0 100%);
+        opacity: 0;
+        scale: .7;
         @media (max-width: 894px) {
           box-shadow: none;
         }
