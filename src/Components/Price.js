@@ -1,5 +1,9 @@
 import gsap, { Power3 } from "gsap";
+import ScrollTrigger from 'gsap/ScrollTrigger'
 import { useEffect} from "react";
+
+
+gsap.registerPlugin(ScrollTrigger);
 
 
 const Price = () => {
