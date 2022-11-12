@@ -27,7 +27,7 @@ const Doing = () => {
         stagger:.3,
         scrollTrigger: {
           trigger: ".box",
-          start: "top bottom",
+          start: "top right",
           end: "20% 20%",
         },
       }

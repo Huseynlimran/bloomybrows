@@ -2,9 +2,7 @@ import { AiFillInstagram, AiOutlineWhatsApp } from "react-icons/ai";
 import gsap, { Power3,Bounce } from "gsap";
 import { useEffect , useRef } from "react";
 
-import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-gsap.registerPlugin(ScrollTrigger);
 
 const Home = () => {
 

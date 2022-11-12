@@ -23,7 +23,7 @@ const Price = () => {
         stagger:.3,
         scrollTrigger: {
           trigger: ".price_item",
-          start: "top bottom",
+          start: "top right",
           end: "20% 20%",
         },
       }

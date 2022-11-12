@@ -23,7 +23,7 @@ const About = () => {
         opacity: 1,
         scrollTrigger: {
           trigger: ".text2",
-          start: "top bottom",
+          start: "top right",
           end: "20% 20%",
         },
       }
@@ -42,7 +42,7 @@ const About = () => {
         opacity: 1,
         scrollTrigger: {
           trigger: ".umbul",
-          start: "top bottom",
+          start: "top right",
           end: "20% 20%",
         },
       }
