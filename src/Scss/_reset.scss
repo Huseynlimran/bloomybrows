@@ -53,19 +53,19 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-body::-webkit-scrollbar {
-    width: .6em;
-}
+// body::-webkit-scrollbar {
+//     width: .6em;
+// }
  
-body::-webkit-scrollbar-track {
-	box-shadow: inset 0 0 6px pink;
-    -webkit-box-shadow: inset 0 0 6px pink;
-}
+// body::-webkit-scrollbar-track {
+// 	box-shadow: inset 0 0 6px pink;
+//     -webkit-box-shadow: inset 0 0 6px pink;
+// }
  
-body::-webkit-scrollbar-thumb {
-  background-color: pink;
-  outline: 1px solid pink;
-}
+// body::-webkit-scrollbar-thumb {
+//   background-color: pink;
+//   outline: 1px solid pink;
+// }
 
 
 *{
