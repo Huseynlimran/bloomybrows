@@ -22,7 +22,7 @@ const Home = () => {
       ease:Bounce.easeOut,
     }, 
     {
-      scale: 1, duration: 2,opacity: 1,delay:2.9
+      scale: 1, duration: 1,opacity: 1,delay:2.9
     })
 
     gsap.fromTo(".text_body",{
@@ -31,7 +31,7 @@ const Home = () => {
       ease:Power3.easeOut
     }, 
     {
-      x: 0, duration: 2,opacity: 1,delay:2.9
+      x: 0, duration: 1,opacity: 1,delay:2.9
     })
 
     gsap.fromTo(".lineAni",{
@@ -40,7 +40,7 @@ const Home = () => {
       ease:Power3.easeOut
     }, 
     {
-      y: 0, duration: 2,opacity: 1,delay:2.9
+      y: 0, duration: 1,opacity: 1,delay:2.9
     })
     
 

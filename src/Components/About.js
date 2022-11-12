@@ -19,8 +19,8 @@ const About = () => {
       },
       {
         x: 0,
-        duration: 2,
-        opacity: 2,
+        duration: 1,
+        opacity: 1,
         scrollTrigger: {
           trigger: ".text2",
           start: "top bottom",
@@ -38,8 +38,8 @@ const About = () => {
       },
       {
         scale: 1,
-        duration: 2,
-        opacity: 2,
+        duration: 1,
+        opacity: 1,
         scrollTrigger: {
           trigger: ".umbul",
           start: "top bottom",

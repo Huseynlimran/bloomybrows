@@ -18,7 +18,7 @@ const Price = () => {
       },
       {
         x: 0,
-        duration: 2,
+        duration: 1,
         opacity: 1,
         stagger:.3,
         scrollTrigger: {
