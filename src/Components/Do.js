@@ -24,7 +24,6 @@ const Do = () => {
         scrollTrigger: {
           trigger: el,
           start: "top bottom",
-          end: "20% 20%",
         },
       }
     );

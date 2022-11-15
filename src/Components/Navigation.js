@@ -1,13 +1,8 @@
 import React, { useState } from "react";
 
-
-
 const Navigation = () => {
-
   const [active, setActive] = useState("nav-links");
   const [toggleIcon, setToggleIcon] = useState("burger");
-
- 
 
   const showNav = () => {
     active === "nav-links"
@@ -21,7 +16,7 @@ const Navigation = () => {
       : setToggleIcon("burger");
   };
   return (
-    <div className="container">
+    <header>
       <nav className="container">
         <a href="/">
           <img src="img/logoB.png" className="logo" alt="" />
@@ -40,13 +35,13 @@ const Navigation = () => {
           </li>
           <li className="listLi">
             <a href="#price" className="linksNav">
-            ПРАЙС
+              ПРАЙС
             </a>
           </li>
 
           <li className="listLi">
             <a href="#about" className="linksNav">
-            ОБО МНЕ
+              ОБО МНЕ
             </a>
           </li>
         </ul>
@@ -57,7 +52,7 @@ const Navigation = () => {
           <div className="line3"></div>
         </div>
       </nav>
-    </div>
+    </header>
   );
 };
 
