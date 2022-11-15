@@ -62,7 +62,7 @@ const Home = () => {
   return (
     <div className="main">
       <video autoPlay loop  muted className="video">
-        <source src="img/browvideo.mp4" type="video/mp4" />
+        <source src="img/browvideo.mp4"  />
       </video>
       <div className="home-bg">
         <section className="container">
