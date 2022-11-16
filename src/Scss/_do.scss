@@ -11,6 +11,7 @@
     top: 0px;
     left: -100px;
     z-index: -1;
+    filter: blur(7em);
   }
   .circle2{
     position: absolute;
@@ -21,7 +22,7 @@
     bottom: -100px;
     right: -100px;
     z-index: -1;
-
+    filter: blur(7em);
   }
 
 
@@ -41,7 +42,7 @@
           font-weight: 900;
           margin-bottom: 40px;
           @media (max-width: 500px) {
-            font-size: 44px;
+            font-size: 34px;
           }
         }
       }

@@ -9,8 +9,9 @@
         font-family: $font;
         font-weight: bold;
         margin-bottom: 90px;
-        @media (max-width: 453px) {
-          font-size: 26px;
+        
+        @media (max-width: 500px) {
+          font-size: 34px;
         }
       }
     }

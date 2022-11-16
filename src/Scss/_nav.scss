@@ -1,8 +1,7 @@
-
-header{
-  background-color: rgba(255, 255, 255, 0.466);
+header {
+  background-color: rgba(255, 255, 255, 0.301);
   backdrop-filter: blur(0.5rem);
-  -webkit-backdrop-filter: blur(0.3rem);
+  -webkit-backdrop-filter: blur(0.5rem);
   transition: all 0.4s;
   position: fixed;
   top: 0;
@@ -14,13 +13,9 @@ header{
 nav {
   height: 10vh;
 
-  
-  
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
-  
 
   .logo {
     display: block;
@@ -41,7 +36,7 @@ nav {
       gap: 25px;
     }
     @media (max-width: 850px) {
-        justify-content: space-between;
+      justify-content: space-between;
     }
     li {
       a {
@@ -54,7 +49,7 @@ nav {
         letter-spacing: 0.75px;
         text-transform: uppercase;
         color: $black;
-        transition: all .4s;
+        transition: all 0.4s;
         &:hover {
           color: #ffc0cb;
         }
@@ -112,9 +107,9 @@ nav {
       align-items: center;
       justify-content: center;
       gap: 60px;
-      background-color: rgba(245, 245, 245, 0.164);
-      backdrop-filter: blur(8.3px);
-      -webkit-backdrop-filter: blur(8.3px);
+      background-color: rgba(255, 255, 255, 0.301);
+      backdrop-filter: blur(0.5rem);
+      -webkit-backdrop-filter: blur(0.5rem);
       top: 10vh;
       right: 0px;
       width: 50%;
@@ -125,7 +120,7 @@ nav {
     .burger {
       display: block;
     }
- 
+
     .logo {
       display: block;
       width: 150px;
