@@ -30,7 +30,10 @@ const Do = () => {
   }, []);
 
   return (
-    <section className="container">
+    <div className="do_main">
+      <div className="circle"></div>
+      <div className="circle2"></div>
+      <section className="container">
       <div className="do" id="do">
         <div className="do_title">
           <h1>РАБОТЫ</h1>
@@ -45,6 +48,8 @@ const Do = () => {
         </div>
       </div>
     </section>
+    </div>
+    
   );
 };
 
