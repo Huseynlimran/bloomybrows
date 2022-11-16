@@ -61,9 +61,9 @@ const Home = () => {
 
   return (
     <div className="main">
-      <video autoPlay loop  muted className="video">
+      {/* <video autoPlay loop  muted className="video">
         <source src="img/browvideo.mp4"  />
-      </video>
+      </video> */}
       <div className="home-bg">
         <section className="container">
           <div className="home">
